@@ -1,0 +1,13 @@
+I designed Quarterly Sales Forecasting Dashboard to get insights on State Wise Distribution of Sales & Profit Time Series using Tableau.
+
+Here is the link to dashboard on my Tableau Public Profile.
+
+https://public.tableau.com/app/profile/nikita.prasad/viz/QuarterlySalesForecastingAnalysisDahboard/AnalysisDashboard
+
+The observations made are as mentioned below:
+
+1. The Quarterly Sales Forecasting is expected to grow in 2018 Q4.
+2. "Consumer" Category Segment are the most Profitable Customers for our business.
+3. "California" is biggest and profitable market in consumer segment whereas "North Darkota" is the least.
+3. "Phones" are the highest selling product but "Copiers" has more profit product.
+4. "Fasterners" are the lowest selling product but "Tables" have even negative profit margin.
