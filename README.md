@@ -6,6 +6,14 @@ A product recommendation is basically a filtering system that seeks to predict a
 
 Hence to cater this problem I architected a SQL-based Superstore Data Warehouse and analysed trends of 10K customer records to identify profitable market segments. (Note: SQL codes are mentioned in the above files.) 
 
+
+### Tools Used
+
+* Excel for Data Cleaning
+* Tableau for creating dashboard
+* SQL for analysis
+
+
 ### Analytics
 
 I designed Quarterly Sales Forecasting Dashboard to get insights on State Wise Distribution of Sales & Profit Time Series using Tableau.
