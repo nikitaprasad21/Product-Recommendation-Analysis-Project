@@ -12,6 +12,7 @@ Hence to cater this problem I architected a SQL-based Superstore Data Warehouse 
 * Excel for Data Cleaning
 * Tableau for creating dashboard
 * SQL for analysis
+* Python for Model Building
 
 
 ### Analytics
@@ -26,3 +27,8 @@ Top 3 observations made are as mentioned below:
 1. The Quarterly Sales Forecasting is expected to grow in 2018 Q4.
 2. "Consumer" Category Segment are the most Profitable Customers for our business.
 3. "California" is biggest and profitable market in consumer segment whereas "North Darkota" is the least.
+
+
+### Model Building
+
+•	Built Popularity and Collaborative Recommendation Systems using Python NLP Model to suggest the right items based on user interests. 
