@@ -44,10 +44,13 @@ Based on the observations made, the following recommendations can be proposed:
 2. **Focus on the "Consumer" Category:** As the most profitable customer segment, it is crucial to prioritize and cater to the needs of consumers. Develop targeted marketing campaigns, personalized promotions, and enhanced customer experiences to further boost profitability within this segment.
 
 3. **Optimize Market Strategies:** Given the significance of the "California" market and its profitability, allocate resources and marketing initiatives to maintain and expand market share in this region. Conversely, explore strategies to improve performance in the "North Dakota" market, such as conducting market research, identifying customer needs, and tailoring marketing approaches accordingly.
+
 ### Model Building
 
 •	Built Popularity and Collaborative Recommendation Systems using Python NLP Model to suggest the right items based on user interests. 
 
+### **Here's Demo** 👇🏻
+[Link](https://huggingface.co/spaces/nikitaprasad-analyst/product-recommendation-system)
 
 ### Conclusion
 
