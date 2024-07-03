@@ -44,7 +44,7 @@ Top 3 observations made are as mentioned below:
 ### **Here's Demo** 👇🏻
 [Link](https://huggingface.co/spaces/nikitaprasad-analyst/product-recommendation-system)
 
-Based on the observations made, the following recommendations can be proposed:
+### Recommendations
 
 1. **Capitalize on Growth Opportunities**: With the anticipated growth in Quarterly Sales Forecasting for 2018 Q4, it is advisable to allocate additional resources and marketing efforts during this period to maximize sales potential.
 
