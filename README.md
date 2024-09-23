@@ -1,57 +1,69 @@
 # Product Recommendation Analysis Project
 
-### Introduction
+## Project Background
+This project focuses on enhancing product recommendations and understanding market trends for an online retail platform. A **SQL**-based data warehouse was designed to store and manage customer and sales data. The project involved analyzing 10,000 customer records, forecasting sales trends, and building personalized recommendation systems using **Python** to improve user experience. These insights help businesses identify profitable segments and optimize marketing efforts, leading to growth and increased customer satisfaction.
 
-A product recommendation is basically a filtering system that seeks to predict and show the items that a user would like to purchase. With the purpose of growing business on the internet and with a significant rise in the number of users, it is becoming important for companies to search, map and provide them with the relevant chunk of information according to their preferences and tastes. 
+## Dataset Structure 
+The dataset for this project was organized into a SQL-based data warehouse with multiple tables for customer data, sales records, product information, and regional market data. The primary data structure used for this analysis and modeling is the combination of two major sources:
 
-Hence to cater this problem I architected a SQL-based Superstore Data Warehouse and analysed trends of 10K customer records to identify profitable market segments. (Note: SQL codes are mentioned in the above files.) 
-
-### Work Process
-
-1. Data Cleaning: Utilized Excel to clean and preprocess the collected data, ensuring accuracy and consistency.
-2. Data Warehouse Architecture: Designed and implemented a SQL-based Superstore Data Warehouse to store and organize the cleaned data effectively.
-3. Trend Analysis: Conducted a thorough analysis of 10K customer records using SQL queries to identify trends and patterns in sales and customer behavior.
-4. Dashboard Creation: Utilized Tableau to create a Quarterly Sales Forecasting Dashboard, visualizing state-wise distribution of sales and profit time series data. Through which mentioned below insights are extracted insights from the dashboard.
-5. Model Building: Employed Python NLP (Natural Language Processing) models to develop Popularity and Collaborative Recommendation Systems, enabling personalized item suggestions based on user interests.
-
-### Tools Used
-
-* Excel for Data Cleaning
-* Tableau for creating dashboard
-* SQL for analysis
-* Python for Model Building
+  * [Superstore Data](https://github.com/nikitaprasad21/Product-Recommendation-Analysis-Project/blob/main/data/Superstore-Data.csv): Superstore purchase history and revenue data.
+  * [Superstore Reviews Data](https://github.com/nikitaprasad21/Product-Recommendation-Analysis-Project/blob/main/data/Superstore-Dataset-Reviews.csv): Rating, review and summary of the product given by the customer. 
+    
+Note: The dataset comprised 10,000+ records, divided into 36 columns, the feature-target description you can see [here](https://github.com/nikitaprasad21/Product-Recommendation-Analysis-Project/blob/main/data/Features_Target_Description.txt).
 
 
-### Analytics
+## Executive Summary
+This project implemented a SQL-based Superstore Data Warehouse and developed product recommendation models to improve customer experience and sales strategies. By analyzing data from 10,000 customers, the system identified profitable market segments, forecasted sales trends, and provided personalized product recommendations. 
 
-I designed Quarterly Sales Forecasting Dashboard to get insights on State Wise Distribution of Sales & Profit Time Series using Tableau.
+Key insights included the dominance of the "Consumer" segment in profitability, the significant role of California as the top-performing market, and strategies for improvement in underperforming regions such as North Dakota.
+
+
+## Codes
+* The targed **SQL queries** regarding various business questions can be found [here](https://github.com/nikitaprasad21/Product-Recommendation-Analysis-Project/blob/main/notebooks/Products-Analysis.sql).
+* The interactive **Tableau dashboard** used to report and explore sales trends can be found [here](https://public.tableau.com/app/profile/nikita.prasad/viz/QuarterlySalesForecastingAnalysisDahboard/AnalysisDashboard).
+* The **Python Pipeline** used for EDA, Model Building for Recommendation Systems and Deployment of model can be found [here](https://github.com/nikitaprasad21/Product-Recommendation-Analysis-Project/blob/main/notebooks/Product-Recommendation-Project.ipynb).
+* The **Recommendation App** demo can be found [here](https://huggingface.co/spaces/nikitaprasad-analyst/product-recommendation-system).
+
+## Dashboard
 
 Here is the glimpse of dashboard.
 ![Screenshot 2023-04-12 165416](https://user-images.githubusercontent.com/84131752/231447810-39810cfc-f423-4463-b6c8-e2eb4c73f878.png)
 
-Top 3 observations made are as mentioned below:
 
-1. **Anticipated Growth:** The Quarterly Sales Forecasting indicates an expected increase in sales for the fourth quarter of 2018.
+## Insights
 
-2. **Profitable Customer Segment:** The "Consumer" category demonstrates the highest profitability among our customer segments, highlighting its significance to our business.
+#### Category 1: Profitable Market Segment
+   * The "Consumer" category is the most profitable customer segment among our customer segments, generating the highest revenue and profit, highlighting its significance to our business.
 
-3. **Market Insights:** The state of "California" emerges as the largest and most profitable market within the consumer segment, while "North Dakota" represents the least profitable market. These insights provide valuable guidance for targeting and optimizing our marketing efforts.
+#### Category 2: Top Performing Region
+   * California emerged as the largest and most profitable market, contributing significantly to total sales.
+#### Category 3: Underperforming Markets
+   * North Dakota represents an underperforming market, requiring strategic attention to improve profitability and market share.
+#### Category 4: Growth Forecast
+   * The sales forecast predicts increased sales in Q4 of 2018, presenting growth opportunities for targeted marketing efforts.
 
-### Model Building
+## Recommendations
 
-•	Built **Collaborative Recommendation Systems** using **Python NLP Model** to suggest the right items based on user interests. 
+#### Category 1: Capitalize on Growth Opportunities:
 
-### **Here's Demo** 👇🏻
-[Link](https://huggingface.co/spaces/nikitaprasad-analyst/product-recommendation-system)
+   * With the anticipated growth in Quarterly Sales Forecasting for 2018 Q4, it is advisable to allocate additional additional marketing resources to maximize sales opportunities during this period.
 
-### Recommendations
+#### Category 2: Focus on the "Consumer" Category:
+   * Develop targeted marketing campaigns, personalized promotions, and enhanced customer experiences to further boost profitability within the "Consumer" segment  segment.
 
-1. **Capitalize on Growth Opportunities**: With the anticipated growth in Quarterly Sales Forecasting for 2018 Q4, it is advisable to allocate additional resources and marketing efforts during this period to maximize sales potential.
+#### Category 3. Optimize Market Strategies:
+   * As California is the most profitable market, it is essential to continue investing in this region through focused marketing efforts, maintaining customer loyalty, and increasing market share.
+     
+#### Category 4. Improve Underperforming Markets:
 
-2. **Focus on the "Consumer" Category:** As the most profitable customer segment, it is crucial to prioritize and cater to the needs of consumers. Develop targeted marketing campaigns, personalized promotions, and enhanced customer experiences to further boost profitability within this segment.
+   * Conduct in-depth market research in North Dakota to understand consumer behavior and tailor marketing efforts to boost sales and profitability in the region.
 
-3. **Optimize Market Strategies:** Given the significance of the "California" market and its profitability, allocate resources and marketing initiatives to maintain and expand market share in this region. Conversely, explore strategies to improve performance in the "North Dakota" market, such as conducting market research, identifying customer needs, and tailoring marketing approaches accordingly.
+## Assumptions and Caveats
+#### Assumptions:
 
-### Conclusion
+* The data provided for analysis is accurate and reflects customer preferences and purchasing patterns.
+* The sales forecast is based on historical trends and assumes no major disruptions in market behavior.
+#### Caveats:
 
-In conclusion, the implementation of a SQL-based Superstore Data Warehouse and the analysis of customer records have provided valuable insights for business growth. Through the Quarterly Sales Forecasting Dashboard and the Popularity and Collaborative Recommendation Systems, businesses can make data-driven decisions, enhance customer satisfaction, and drive profitability.
+* Seasonal fluctuations and external factors like economic changes or unforeseen events may impact sales trends and market behavior, making forecast predictions less accurate.
+* The recommendation models are built on available data; their effectiveness may vary if customer preferences shift or if there is insufficient data for new products.
