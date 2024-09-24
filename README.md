@@ -1,4 +1,4 @@
-# Product Recommendation Analysis Project
+# Product Recommendation System for E-commerce Project
 
 ## Project Background
 This project focuses on enhancing product recommendations and understanding market trends for an online retail platform. A **SQL**-based data warehouse was designed to store and manage customer and sales data. The project involved analyzing 10,000 customer records, forecasting sales trends, and building personalized recommendation systems using **Python** to improve user experience. These insights help businesses identify profitable segments and optimize marketing efforts, leading to growth and increased customer satisfaction.
